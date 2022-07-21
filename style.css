@@ -1,0 +1,45 @@
+html, body {
+    width: auto;
+    height: max-content;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+  
+.form-container {
+    border: 1px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    background-color: rgba(169, 227, 251, 0.339);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.form-label {
+    font-weight: bold;
+}
+ #formButton {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+
+}
+
+#saveInfo {
+   font-size: 15px;
+  text-align: left;
+}
+
+
+.hide {
+    display: none;
+  }
+
